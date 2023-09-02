@@ -3,6 +3,7 @@
 ## 1.git入门
 >总结：
 >- 基本操作类：
+>- 初始化git                    `git init`
 >- 工作区->暂存区         `git add .`
 >- 暂存区->仓库            `git commit -m 'commit message 01'`
 >- 查看状态                  `git status`
@@ -12,15 +13,15 @@
 >- 查看分支                  `git branch`
 >- 切换分支                   `git checkout 分支名`
 >- 创建并且切换分支    `git checkout -b 分支名`
->    - `分支合并                  `git merge 分支名`
->    - 首先切换到主分支上
->      远程操作类：
+>   - `分支合并                  `git merge 分支名`
+>   - 首先切换到主分支上
+>     远程操作类：
 >- 克隆远程仓库            `git clone 远程地址 本地地址`
 >- 拉取远端仓库修改并且合并
 >- `git pull`
 >- 推送本地仓库的修改到远端分支
 >- `git push [--set-upstream] origin 分支名`
->  - --set-upstream表示和远端分支帮的关联关系，只有第一次推送时需要绑定
+> - --set-upstream表示和远端分支帮的关联关系，只有第一次推送时需要绑定
 
 ![image-20230825170813500](# git工具.assets/image-20230825170813500.png)
 
